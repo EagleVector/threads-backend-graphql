@@ -91,6 +91,7 @@ out
 .nuxt
 dist
 build
+.DS_Store
 
 # Gatsby files
 .cache/
