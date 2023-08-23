@@ -7,7 +7,7 @@ async function createApolloGraphqlServer() {
 		// Schema Layer
 		typeDefs: `
       type Query {
-				hello: String
+				${User.queries}
 			}
       type Mutation {
 				${User.mutations}
